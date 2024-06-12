@@ -1,0 +1,24 @@
+{
+	"name": "syn_payroll_aggr",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_data_stores",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "NYC_Payroll_Summary",
+				"fileSystem": "synapsefiles"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

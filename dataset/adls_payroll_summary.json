@@ -1,0 +1,21 @@
+{
+	"name": "adls_payroll_summary",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_data_stores",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "payroll_summary",
+				"fileSystem": "dirstaging"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

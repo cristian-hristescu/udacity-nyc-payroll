@@ -1,0 +1,9 @@
+{
+	"name": "adf-nycpayroll-cristian-h",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a7fdd73a-d99b-423c-a201-bcc7016d0b60",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
